@@ -1,0 +1,30 @@
+{
+  "name": "min-prompt",
+  "version": "0.0.0",
+  "description": "Minimalistic zsh prompt",
+  "files": [
+    "min.zsh"
+  ],
+  "scripts": {
+    "postinstall": "dest=$HOME/.oh-my-zsh/custom/plugins/min; mkdir -p $dest && ln -sf $PWD/min.zsh $dest/min.plugin.zsh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepolischuk/min.git"
+  },
+  "keywords": [
+    "zsh",
+    "sh",
+    "shell",
+    "bash",
+    "prompt",
+    "theme",
+    "minimal"
+  ],
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrepolischuk/min/issues"
+  },
+  "homepage": "https://github.com/andrepolischuk/min"
+}

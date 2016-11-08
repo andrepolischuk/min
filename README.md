@@ -6,6 +6,20 @@
 
 ## Install
 
+### npm
+
+```sh
+npm install -g min-prompt
+```
+
+and add `min` to plugin list in your `.zshrc`:
+
+```zsh
+plugins=(min)
+```
+
+### Manually
+
 Clone this repo and append next line to your `.zshrc`:
 
 ```zsh
