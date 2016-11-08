@@ -1,6 +1,6 @@
 {
   "name": "min-prompt",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Minimalistic zsh prompt",
   "files": [
     "min.zsh"
