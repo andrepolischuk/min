@@ -26,10 +26,16 @@ Clone this repo and append next line to your `.zshrc`:
 source min/min.zsh
 ```
 
-## Tip
+## Tips
 
-In screenshot min is running with [one light](https://github.com/andrepolischuk/hyper-one-light) theme and Menlo font.
+In the screenshot min is running in [Hyper][hyper] with [one light][one-light] theme and Menlo font.
+
+To colorize commands as in the screenshot, install [zsh-syntax-highlighting][zsh-syntax-highlighting].
 
 ## License
 
 MIT
+
+[hyper]: https://hyper.is
+[one-light]: https://github.com/andrepolischuk/hyper-one-light
+[zsh-syntax-highlighting]: https://github.com/zsh-users/zsh-syntax-highlighting
