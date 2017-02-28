@@ -13,7 +13,7 @@ min_user() {
   if [[ $USER == 'root' ]]; then
     echo -n "%B%F{red}"
   else
-    echo -n "%B%F{magenta}"
+    echo -n "%B%F{yellow}"
   fi
 
   echo -n "%n%f%b"
@@ -23,7 +23,7 @@ min_user() {
 min_host() {
   if [[ -n $SSH_CONNECTION ]]; then
     echo -n "$(min_user)"
-    echo -n "%B%F{grey}@%m%f%b "
+    echo -n "%F{242}@%m%f "
   elif [[ $LOGNAME != $USER ]] || [[ $USER == 'root' ]]; then
     echo -n "$(min_user) "
   fi
