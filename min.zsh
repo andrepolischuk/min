@@ -11,21 +11,20 @@ min_status() {
 # Username
 min_user() {
   if [[ $USER == 'root' ]]; then
-    echo -n "%B%F{red}"
+    echo -n "%F{red}"
   else
-    echo -n "%B%F{yellow}"
+    echo -n "%F{yellow}"
   fi
 
-  echo -n "%n%f%b"
+  echo -n "%n"
 }
 
 # Username and ssh host
 min_host() {
   if [[ -n $SSH_CONNECTION ]]; then
-    echo -n "$(min_user)"
-    echo -n "%F{242}@%m%f "
+    echo -n "$(min_user)@%m%f "
   elif [[ $LOGNAME != $USER ]] || [[ $USER == 'root' ]]; then
-    echo -n "$(min_user) "
+    echo -n "$(min_user)%f "
   fi
 }
 
