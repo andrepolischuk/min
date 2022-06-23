@@ -28,7 +28,7 @@ source min/min.zsh
 
 ## Tips
 
-In the screenshot min is running in [Hyper][hyper] with [one light][one-light] theme and Menlo font.
+In the screenshot min is running in iTerm 2 with one light theme and SF Mono font.
 
 To colorize commands as in the screenshot, install [zsh-syntax-highlighting][zsh-syntax-highlighting].
 
@@ -36,6 +36,4 @@ To colorize commands as in the screenshot, install [zsh-syntax-highlighting][zsh
 
 MIT
 
-[hyper]: https://hyper.is
-[one-light]: https://github.com/andrepolischuk/hyper-one-light
 [zsh-syntax-highlighting]: https://github.com/zsh-users/zsh-syntax-highlighting
